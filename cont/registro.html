@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scrip.js"></script>
+    <title>REGISTRO</title>
+</head>
+<body>
+    <div id="header-container"></div>
+    <main>
+        <div class="menu">
+            <p3>REGISTRO DEL USUARIO</p3>
+            <P class="cont">VENTAS NELSON SAS</P>
+        </div>
+        <div class="container2">
+            <form id="registroForm" action="/cont/bienvenido.html">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">NOMBRE</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="ingrese sus nombres" class="input-padron" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">APELLIDO</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="ingrese sus apellidos" class="input-padron" required>
+              </div>
+            <br>
+            <div class="row">
+                <div class="col-25">
+                  <label for="lname">CORREO</label>
+                </div>
+                <div class="col-75">
+                  <input type="email" id="lname" name="lastname" placeholder="ingrese su correo" class="input-padron" required placeholder="email@dominio.com">
+                </div>
+              <br>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">CONTRASEÑA</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="ingrese su contraseña" class="input-padron" required>
+                </div>
+              <br>
+            <div class="row2">
+              <input type="submit" value="REGISTRARSE">
+              <nav1>
+                <ul>
+                    <li1><a href="/index.html">CANCELAR</a></li1>
+                </ul>
+            </nav1>          
+            </div>
+                    
+            </form>
+            <div id="mensaje" style="display: none;">Registro exitoso</div>
+            </div>
+    </main>
+
+<div id="footer-container"></div>
+<script src="js/insertHeaderFooter.js"></script>
+</body>
+</html>
